@@ -12,7 +12,7 @@ El dinero lo sacamos vendiendo figuras impresas en 3D y arreglando ordenadores d
 
 El diseño, el presupuesto pieza a pieza y cómo nos organizamos están en [TeamRocket_proyecto.pdf](TeamRocket_proyecto.pdf).
 
-## Las pruebas
+## Las pruebas principales
 
 **Sigue líneas.** Un control PID con dos ajustes: uno agresivo para las curvas cerradas y otro suave para las rectas. El robot pasa de uno a otro por tiempo, según el tramo del circuito en el que esté.
 
