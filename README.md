@@ -1,8 +1,8 @@
 # Team Rocket · ASTI Robotics Challenge 25/26
 
-Un robot de 210 € que tenía que valer para todo: seguir una línea contrarreloj, pelear en sumo, tirar bolos, dibujar figuras y trabajar en una mini fábrica manejado con un mando de PS5. Este es el código con el que nuestro equipo se presentó al ASTI Robotics Challenge 2025/26.
+Un robot de menos de 140 € que tenía que valer para todo: seguir una línea contrarreloj, pelear en sumo, tirar bolos, dibujar figuras y trabajar en una mini fábrica manejado con un mando de PS5. Este es el código con el que nuestro equipo se presentó al ASTI Robotics Challenge 2025/26.
 
-El dinero lo sacamos vendiendo figuras impresas en 3D y arreglando ordenadores de conocidos. Recaudamos 213 € y gastamos 210.
+El dinero lo sacamos imprimiendo piezas en 3D y limpiando ordenadores. El presupuesto final fue de 138,75 €.
 
 ## El robot
 
@@ -10,7 +10,7 @@ El dinero lo sacamos vendiendo figuras impresas en 3D y arreglando ordenadores d
 - Arduino Mega 2560 con un escudo wifi ESP8266.
 - Sensores de línea por infrarrojos, ultrasonidos HC-SR04 y un servomotor.
 
-El diseño, el presupuesto pieza a pieza y cómo nos organizamos están en [TeamRocket_proyecto.pdf](TeamRocket_proyecto.pdf).
+La construcción, las pruebas y el presupuesto están en [la presentación del equipo](TeamRocket_presentacion.pdf).
 
 ## Las pruebas principales
 
