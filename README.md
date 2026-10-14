@@ -22,10 +22,11 @@ La construcción, las pruebas y el presupuesto están en [la presentación del e
 
 **Mini fábrica y circuito manual.** Aquí conduce una persona. Un script en Python lee el mando de PS5 con pygame y envía las órdenes por UDP a la wifi del robot. Incluye el control de la pinza y de la puerta.
 
+## Tecnologías
+
+- **Arduino** en el robot: lee los sensores y mueve los motores, con el control PID y la máquina de estados de cada prueba.
+- **Python** en un ordenador conectado a la wifi del robot: la ventana de ajustes del DibujaBot (Tkinter) y la conducción con el mando de PS5 (pygame), que envía las órdenes por UDP.
+
 ## Cómo está organizado
 
-Cada carpeta (`David`, `Valentin`, `Yori`) guarda el trabajo de un miembro del equipo. Hay varias versiones de la misma prueba porque íbamos probando ajustes distintos y comparando en la pista.
-
-- Los `.ino` se cargan en el Arduino Mega desde el IDE de Arduino.
-- Los `.py` se ejecutan en un ordenador conectado a la wifi del robot. Los del mando necesitan `pygame`.
-- `INICIO_MANDO_GENERICO.py` deja el robot en espera y lo arranca al pulsar la X del mando.
+Cada carpeta (`David`, `Valentin`, `Yori`) guarda el trabajo de un miembro del equipo. Hay varias versiones de la misma prueba porque íbamos probando ajustes distintos y comparándolos en la pista.
